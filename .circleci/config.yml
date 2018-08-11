@@ -34,5 +34,5 @@ jobs:
 
       - store_artifacts:
           path: target/bakery-1.0-SNAPSHOT.war
-          destination: dist
+          destination: bakery.war
 
