@@ -33,5 +33,5 @@ jobs:
       - run: mvn install
 
       - store_artifacts:
-          path: target/*.war
+          path: target
 
