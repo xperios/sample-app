@@ -32,3 +32,6 @@ jobs:
       # run tests!
       - run: mvn install
 
+      - store_artifacts:
+          path: target/*.jar
+
