@@ -33,5 +33,5 @@ jobs:
       - run: mvn install
 
       - store_artifacts:
-          path: target
+          path: target/bakery-1.0-SNAPSHOT.war
 
